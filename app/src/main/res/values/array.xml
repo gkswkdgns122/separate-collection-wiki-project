@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="분류">
+        <item>캔</item>
+        <item>종이</item>
+        <item>플라스틱</item>
+        <item>스티로폼</item>
+        <item>유리병</item>
+        <item>비닐</item>
+        <item>기타</item>
+    </string-array>
+</resources>

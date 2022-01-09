@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="품목 이름">
+    </TextView>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dlgEt1">
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="구분">
+    </TextView>
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/분류"
+        android:id="@+id/spinnerAdd">
+    </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="상세설명">
+    </TextView>
+    <EditText
+        android:id="@+id/dlgEt2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_box"
+        android:maxLength="50"
+        android:hint="50자 내외로 써주세요.">
+    </EditText>
+</LinearLayout>

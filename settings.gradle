@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='201501978_한장훈_분리수거wiki'
